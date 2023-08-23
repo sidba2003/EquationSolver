@@ -17,18 +17,6 @@ public class InputHandler {
         return generateObject(strip2LevelOne(question));
     }
 
-    /**
-     * takes a string as an argument
-     * converts the String to a JsonObject and returns it
-     */
-    private static JsonObject generateObject(String question){
-        JsonReader reader = Json.createReader(new StringReader(question));
-        JsonObject jsonObject = reader.readObject();
-        reader.close();
-
-        return jsonObject;
-    }
-
 
     /**
      * this method is entry point to stripping a question to the desired (Level 1) format
