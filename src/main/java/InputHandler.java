@@ -18,6 +18,16 @@ public class InputHandler {
     }
 
 
+    /** generates a JSon Object which can then be passed on to the InputHandler class **/
+    private static JsonObject generateObject(String question){
+        JsonReader reader = Json.createReader(new StringReader(question));
+        JsonObject jsonObject = reader.readObject();
+        reader.close();
+
+        return jsonObject;
+    }
+
+
     /**
      * this method is entry point to stripping a question to the desired (Level 1) format
      * this method takes a string as an argument and returns a string
