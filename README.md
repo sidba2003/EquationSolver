@@ -11,3 +11,5 @@ Where each term consistes of a positive or negative sign and each "num" can be r
 
 
 Given the value of x and the terms, the value of y will be computed by converting the string to json by extracting all the values and carrying out a final set of computations over the generated json object.
+
+Unit Tests can be found for the same in the folder of ./src/main/Tests/
