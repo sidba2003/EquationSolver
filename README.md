@@ -2,7 +2,7 @@ This project is used to work with polynomial equations containing two variables,
 
 The equation needs to be inputted in the form of 'equation:x="num";y=<+/->"num".x^"num"....'
 
-Where each term consistes of a positive or negative sign and each "num" can be replaced by an interger of our choice. As of now, negative intergers aren't accepted.....
+Where each term consists of a positive or negative sign and each "num" can be replaced by an interger of our choice. As of now, negative intergers aren't accepted.....
 
 
 1.> As co-efficient, simply because the sign at the beginning of each term can be used to carry out the same function and,
